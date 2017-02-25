@@ -77,6 +77,9 @@
                                     <constraint firstAttribute="height" constant="150" id="gbc-zS-anV"/>
                                 </constraints>
                                 <state key="normal" image="f"/>
+                                <connections>
+                                    <action selector="facebookBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pHS-vy-I4p"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="LND-KB-6F7">
                                 <rect key="frame" x="46" y="421" width="283" height="105"/>
@@ -100,6 +103,9 @@
                                         <state key="normal" title="Sign In">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="SignInBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tIa-MD-2WU"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -123,6 +129,10 @@
                             <constraint firstAttribute="trailing" secondItem="LWY-gJ-oZh" secondAttribute="trailing" id="xAQ-Vp-ppn"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailFieldSCS2" destination="pf8-FS-RyB" id="3MQ-Iy-wsJ"/>
+                        <outlet property="pwdField" destination="qM4-iY-FI0" id="554-3G-e2m"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
