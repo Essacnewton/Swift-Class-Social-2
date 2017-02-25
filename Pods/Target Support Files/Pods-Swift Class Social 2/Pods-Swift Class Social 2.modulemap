@@ -1,0 +1,6 @@
+framework module Pods_Swift_Class_Social_2 {
+  umbrella header "Pods-Swift Class Social 2-umbrella.h"
+
+  export *
+  module * { export * }
+}
