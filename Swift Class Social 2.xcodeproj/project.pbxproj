@@ -20,6 +20,7 @@
 		2E1FEB421E61D52E009D9444 /* FancyLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1FEB3E1E61D52E009D9444 /* FancyLoginButton.swift */; };
 		2E1FEB441E62204D009D9444 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1FEB431E62204D009D9444 /* FeedVC.swift */; };
 		2E1FEB461E623054009D9444 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1FEB451E623054009D9444 /* CircleView.swift */; };
+		2E1FEB481E62476E009D9444 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1FEB471E62476E009D9444 /* PostCell.swift */; };
 		F9CBA32F92CF3D11FD7FE062 /* Pods_Swift_Class_Social_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFAB688CB5AD2A55F337825D /* Pods_Swift_Class_Social_2.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		2E1FEB3E1E61D52E009D9444 /* FancyLoginButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyLoginButton.swift; sourceTree = "<group>"; };
 		2E1FEB431E62204D009D9444 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		2E1FEB451E623054009D9444 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		2E1FEB471E62476E009D9444 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		DFAB688CB5AD2A55F337825D /* Pods_Swift_Class_Social_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_Class_Social_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -114,6 +116,7 @@
 				2E1FEB3D1E61D52E009D9444 /* FancyTextField.swift */,
 				2E1FEB3E1E61D52E009D9444 /* FancyLoginButton.swift */,
 				2E1FEB451E623054009D9444 /* CircleView.swift */,
+				2E1FEB471E62476E009D9444 /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				2E1FEB421E61D52E009D9444 /* FancyLoginButton.swift in Sources */,
 				2E1FEB201E61C079009D9444 /* AppDelegate.swift in Sources */,
 				2E1FEB3A1E61D500009D9444 /* Constants.swift in Sources */,
+				2E1FEB481E62476E009D9444 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
