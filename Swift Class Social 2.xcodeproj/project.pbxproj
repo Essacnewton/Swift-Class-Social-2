@@ -22,6 +22,7 @@
 		2E1FEB461E623054009D9444 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1FEB451E623054009D9444 /* CircleView.swift */; };
 		2E1FEB481E62476E009D9444 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1FEB471E62476E009D9444 /* PostCell.swift */; };
 		2E1FEB4B1E63393A009D9444 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1FEB4A1E63393A009D9444 /* DataService.swift */; };
+		2E1FEB4D1E6358A2009D9444 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1FEB4C1E6358A2009D9444 /* Post.swift */; };
 		F9CBA32F92CF3D11FD7FE062 /* Pods_Swift_Class_Social_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFAB688CB5AD2A55F337825D /* Pods_Swift_Class_Social_2.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		2E1FEB451E623054009D9444 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		2E1FEB471E62476E009D9444 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		2E1FEB4A1E63393A009D9444 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		2E1FEB4C1E6358A2009D9444 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		DFAB688CB5AD2A55F337825D /* Pods_Swift_Class_Social_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_Class_Social_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -107,6 +109,7 @@
 		2E1FEB361E61D4C4009D9444 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2E1FEB4C1E6358A2009D9444 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				2E1FEB461E623054009D9444 /* CircleView.swift in Sources */,
 				2E1FEB221E61C079009D9444 /* SignInVC.swift in Sources */,
 				2E1FEB401E61D52E009D9444 /* RoundBtn.swift in Sources */,
+				2E1FEB4D1E6358A2009D9444 /* Post.swift in Sources */,
 				2E1FEB3F1E61D52E009D9444 /* FancyView.swift in Sources */,
 				2E1FEB411E61D52E009D9444 /* FancyTextField.swift in Sources */,
 				2E1FEB4B1E63393A009D9444 /* DataService.swift in Sources */,
